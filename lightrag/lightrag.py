@@ -143,6 +143,7 @@ class LightRAG:
     The function should return a list of dictionaries, where each dictionary contains the following keys:
         - `tokens`: The number of tokens in the chunk.
         - `content`: The text content of the chunk.
+        - `chunk_order_index`: The index of the chunk in the original text.
 
     Defaults to `chunking_by_token_size` if not specified.
     """
