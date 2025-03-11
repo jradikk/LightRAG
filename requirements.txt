@@ -3,7 +3,7 @@ configparser
 future
 
 # Basic modules
-gensim==4.3.2
+gensim==4.3.3
 pipmaster
 pydantic
 python-dotenv
